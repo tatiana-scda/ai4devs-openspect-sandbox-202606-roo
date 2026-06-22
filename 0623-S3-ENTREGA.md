@@ -280,25 +280,44 @@ La IA no identificou conrrectamente:
 
 ## 2. Skill
 
+Creación de una skill para generat la mensaje de commit y seguir los patrones de conventional commit format.
+
 ## 3. Diario de decisiones
 
-*Skill creada:* [nombre y propósito en una línea]
+*Skill creada:* commit-pattern
 
 *Decisiones de diseño tomadas:*
-  [Decisión 1: qué decidiste y por qué]
-  [Decisión 2: ...]
-  [Decisión 3: ...]
+- No dar muchos detalles para ver las decidiones de la IA
 
 *Qué me resultó fácil:*
-  [Lista corta]
+- Definir skill
+- Referencia a conventional commit format, que es un patrón que ya existe, no hacendo falta muchas definiciones
 
 *Qué me resultó ambiguo o difícil de decidir:*
-  [Lista corta — sé específico, no genérico]
+- Defenir comportamento en error cuando no hay referebcia de ticket de Jira
 
 *Tiempo real invertido:*
-  [Tiempo total, separando lectura previa, diseño y escritura si puedes]
+  30 minutos
 
 *Qué probarías si tuvieras más tiempo:*
-  [Una o dos cosas]
+- Darle más ejemplos
+- No elegí formato para ver su decisión, pero el formato ideal: <tipo>(JIRA-000): <detalles>
+- IA no identificó el renombramiento del archivo de entrega.
 
   ### 3.1. Prueba de la skill
+>[task-s3 f4f60f8] feat(skills): add commit-pattern skill and document architecture analysis [BONUS-0000]
+> 2 files changed, 13 insertions(+), 71 deletions(-)
+> create mode 100644 .vibe/skills/commit-pattern/SKILL.md
+> create mode 100644 ENTREGA.md
+
+
+Detalles:
+
+Hash: f4f60f8
+Branch: task-s3
+Mensaje: feat(skills): add commit-pattern skill and document architecture analysis [BONUS-0000]
+Archivos: 2 archivos modificados
+✅ 
+.vibe/skills/commit-pattern/SKILL.md
+ (nuevo)
+✅ ENTREGA.md (actualizado)
